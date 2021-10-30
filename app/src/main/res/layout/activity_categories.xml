@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories"
+
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/aclonica"
+            android:text="Back"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.009"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="1dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the Type of Food"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp"/>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_soup"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:src="@drawable/soup"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Soups"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/btn_cookies"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:background="@drawable/cookies"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Cookies"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/btn_asianfood"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:background="@drawable/asianfood"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Asian Food"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/btn_homefood"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:background="@drawable/homefood"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Home Food"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
